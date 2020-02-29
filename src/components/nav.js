@@ -11,7 +11,8 @@ export default function Nav() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                        <NavLink className="nav-link" to="/posts">
+                            Home <span className="sr-only">(current)</span></NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>

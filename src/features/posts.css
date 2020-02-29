@@ -1,0 +1,18 @@
+.post{
+
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.64);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.64);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.64);
+
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 2em; /* padding*/
+}
+
+.post-hreader{
+
+}
+
+.post-body{
+
+}
