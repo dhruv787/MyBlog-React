@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Nav() {
     return (
@@ -13,10 +14,12 @@ export default function Nav() {
                         <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact Us</a>
+                        <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About Us</a>
+                        <NavLink className="nav-link" to="/aboutus">
+                            About Us
+                        </NavLink>
                     </li>
                 </ul>
                 <form className="form-inline mt-2 mt-md-0">
